@@ -1,3 +1,6 @@
+body{
+    font-family: 'Rubik', sans-serif;
+}
 
 .container1{
     background-color: black;
@@ -29,30 +32,32 @@ justify-content: center;
 .section2{
     padding-left: 20px;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .button1{
     margin-top: 10px;
     border: none;
-    height: 70px;
-    width: 150px;
+    height: 50px;
+    width: 200px;
     border-radius: 12px;
     background-color: magenta;
     color: white;
+    font-family:'Rubik', sans-serif;
 }
-.List1{
-    padding:0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.TupperBall{
-    list-style-image: url(images/Tupperwarelistball.png);
-
-}
-
 .boxing{
     border: 2px solid red;
+}
+input[type=text] {
+    flex: 1;
+    padding: 15px 170px 15px 10px;
+    border: 2px solid darkgrey;
+    border-radius: 12px;
+}
+.footertext{
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    flex-shrink: 0;  
 }
