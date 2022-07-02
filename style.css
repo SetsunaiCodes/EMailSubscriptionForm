@@ -1,108 +1,219 @@
-body{
-    font-family: 'Rubik', sans-serif;
-    padding: 0;
-    margin: 0;
-}
+    body{
+        font-family: 'Rubik', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
 
 .container1{
-background: rgb(55,1,41);
-background: linear-gradient(40deg, rgba(55,1,41,1) 0%, rgba(131,5,120,1) 46%, rgba(255,0,194,1) 100%);
-display: flex;
-height: 810px;
-justify-content: center;
-align-items: center;
-}
-
-.TheProject{
-    border-radius: 18px;
-    background-color: white;
+    background: rgb(55,1,41);
+    background: linear-gradient(40deg, rgba(55,1,41,1) 0%, rgba(131,5,120,1) 46%, rgba(255,0,194,1) 100%);
     display: flex;
-    height: 600px;
-    width: 1000px;
-}
-
-.section1{
-    border-radius: 18px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    background-image: url(images/Tupperwarebgpink.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.TupperwareLogo{
-    max-width: 100%;
-    height: auto;
-}
-.section2{
-    padding-left: 20px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.button1{
-    margin-top: 10px;
-    border: none;
-    height: 50px;
-    width: 200px;
-    border-radius: 12px;
-    background-color: #ff00b0;
-    color: white;
-    font-family:'Rubik', sans-serif;
-    font-size: 15px;
-}
-
-.boxin {
-    border: 2px solid red;
-}
-input[type=text] {
-    flex: 1;
-    padding: 15px 170px 15px 10px;
-    border: 2px solid darkgrey;
-    border-radius: 12px;
-}
-.footertext{
-    height: 200px;
-    text-align: left;
-    padding-right: 70px;
-}
-
-.Sec2Header{
-    font-size: 30px;
-    margin: 20px 0px 10px 0;
-    padding: 0;
-}
-
-.Sec2Description{
-    margin: 0;
-    padding: 0;
-    font-size: 20px;
-}
-.Sec2List{
-    margin-top: 10px;
-    padding: 0 0 0 20px;
-}
-
-footer{
-    background: rgb(0,0,0);
-    background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
-    display: flex;
-    color: darkgrey;
+    height: 810px;
     justify-content: center;
     align-items: center;
-    height: 60px;
-}
-.AGBborder{
-    padding-right: 1000px;
-}
+    }
+    
+    .TheProject{
+        border-radius: 18px;
+        background-color: white;
+        display: flex;
+        height: 600px;
+        width: 1000px;
+    }
+    
+    .section1{
+        border-radius: 18px;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        background-image: url(images/Tupperwarebgpink.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .TupperwareLogo{
+        max-width: 100%;
+        height: auto;
+    }
+    .section2{
+        padding-left: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .button1{
+        margin-top: 10px;
+        border: none;
+        height: 50px;
+        width: 200px;
+        border-radius: 12px;
+        background-color: #ff00b0;
+        color: white;
+        font-family:'Rubik', sans-serif;
+        font-size: 15px;
+    }
+    
+    .boxng {
+        border: 2px solid red;
+    }
+    input[type=text] {
+        flex: 1;
+        padding: 15px 170px 15px 10px;
+        border: 2px solid darkgrey;
+        border-radius: 12px;
+    }
+    .footertext{
+        height: 200px;
+        text-align: left;
+        padding-right: 70px;
+    }
+    
+    .Sec2Header{
+        font-size: 30px;
+        margin: 20px 0px 10px 0;
+        padding: 0;
+    }
+    
+    .Sec2Description{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    .Sec2List{
+        margin-top: 10px;
+        padding: 0 0 0 20px;
+    }
+    
+    footer{
+        background: rgb(0,0,0);
+        background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
+        display: flex;
+        color: darkgrey;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
+    .AGBborder{
+        padding-right: 1000px;
+    }
+    
+    header{
+        background: rgb(0,0,0);
+        background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
+        display: flex;
+        color: lightgrey;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
 
-header{
-    background: rgb(0,0,0);
-    background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
-    display: flex;
-    color: lightgrey;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-}
+    @media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+        body{
+            font-family: 'Rubik', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+    
+    .container1{
+        background: rgb(55,1,41);
+        background: linear-gradient(40deg, rgba(55,1,41,1) 0%, rgba(131,5,120,1) 46%, rgba(255,0,194,1) 100%);
+        display: flex;
+        height: 810px;
+        justify-content: center;
+        align-items: center;
+        }
+        
+        .TheProject{
+            border-radius: 18px;
+            background-color: white;
+            display: flex;
+            height: 600px;
+            width: 1000px;
+        }
+        .section1{
+            width: 0%;
+            height: auto;
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        .TupperwareLogo{
+            max-width: 0%;
+            height: auto;
+        }
+        .section2{
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .button1{
+            margin-top: 10px;
+            border: none;
+            height: 50px;
+            width: 200px;
+            border-radius: 12px;
+            background-color: #ff00b0;
+            color: white;
+            font-family:'Rubik', sans-serif;
+            font-size: 15px;
+        }
+        
+        .boxng {
+            border: 2px solid red;
+        }
+        input[type=text] {
+            flex: 1;
+            padding: 15px 170px 15px 10px;
+            border: 2px solid darkgrey;
+            border-radius: 12px;
+        }
+        .footertext{
+            height: 200px;
+            text-align: left;
+            padding-right: 70px;
+        }
+        
+        .Sec2Header{
+            font-size: 30px;
+            margin: 20px 0px 10px 0;
+            padding: 0;
+        }
+        
+        .Sec2Description{
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        .Sec2List{
+            margin-top: 10px;
+            padding: 0 0 0 20px;
+        }
+        
+        footer{
+            background: rgb(0,0,0);
+            background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
+            display: flex;
+            color: darkgrey;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            font-size: 12px;
+        }
+        .AGBborder{
+            padding-right: 1000px;
+        }
+        
+        header{
+            background: rgb(0,0,0);
+            background: linear-gradient(40deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 46%, rgba(32,32,32,1) 100%);
+            display: flex;
+            color: lightgrey;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            font-size: 12px;
+        }
+    
+    }
