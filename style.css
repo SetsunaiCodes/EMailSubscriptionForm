@@ -63,7 +63,7 @@
         border-radius: 12px;
     }
     .footertext{
-        height: 200px;
+        height: 210px;
         text-align: left;
         padding-right: 70px;
     }
@@ -170,7 +170,7 @@
             border-radius: 12px;
         }
         .footertext{
-            height: 200px;
+            height: auto;
             text-align: left;
             padding-right: 70px;
         }
